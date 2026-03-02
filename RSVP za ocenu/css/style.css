@@ -1,0 +1,131 @@
+body {
+    background-color: #f9f9f9;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.glavno {
+    background-color: #fffdf5; 
+    width: 450px;
+    height: 750px;
+    border: 1px solid black;
+    position: relative; 
+    text-align: center;
+    box-shadow: 0 4px 10px ;
+    overflow: hidden; 
+}
+
+.tekst {
+    margin-top: 50px;
+    color: #555;
+}
+
+h1 {
+    color: #d4b483; 
+    font-size: 40px;
+    margin-bottom: 0;
+}
+
+h2 {
+    color: #9ba6eb; 
+    font-size: 80px;
+    margin: 0;
+}
+
+h3 {
+    color: #5a6378; 
+    letter-spacing: 3px;
+}
+
+.balon {
+    position: absolute;
+    width: 120px; 
+    top: 20px;
+}
+
+.b-left {
+     left: -30px;
+}
+
+.b-right {
+    right: -30px; 
+    transform: scaleX(-1); /* AI uradio ovo transform */
+ } 
+
+.poklon {
+    position: absolute;
+    width: 90px; 
+    bottom: -10px;
+}
+
+.p-left { 
+    left: 10px;
+}
+
+.p-right {
+     right: 10px; 
+}
+
+.forma {
+    margin-top: 40px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #5a6378;
+}
+
+form {
+    text-align: left;
+    display: inline-block;
+    font-weight: normal;
+    font-size: 13px;
+    margin-top: 10px;
+
+}
+
+.molba {
+    font-size: 14px;
+    font-style: italic;
+    margin-top: 30px;
+    opacity: 0.6;
+}
+
+.mesto {
+    opacity: 0.6;
+}
+
+input {
+    cursor: pointer;
+}
+
+label{
+    cursor: pointer;
+}
+
+.ime-prezime input {
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    outline: none;
+}
+
+.dugme {
+    margin-top: 15px;
+    padding: 8px 25px;
+    background-color: #9ba6eb;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s; /* AI uradio ovo transition */
+}
+
+.dugme:hover {
+    background-color: #8a95d4; 
+    transform: scale(1.1); 
+}
